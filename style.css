@@ -1,0 +1,378 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter {
+  height: 1500px;
+  width: 600px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > img {
+  width: 293px;
+}
+
+.highlight {
+  height: 160px;
+  background-color: #59D2B5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight > div > h1 {
+  color: white;
+  text-align: center;
+  width: 450px;
+}
+
+.bloglink {
+  position: absolute;
+  width: 600px;
+  left: 970px;
+  bottom: 467px;
+}
+
+.highlight > .bloglink > a {
+  font-size: 0.7rem;
+  color: white;
+  text-decoration: none;
+}
+
+.intro {
+  height: 280px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.intro > h2 {
+  width: 483px;
+  font-weight: 350;
+  font-size: 1.4rem;
+}
+
+.intro > p {
+  width: 390px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+/* button */
+.trialbtn {
+  width: 170px;
+  height: 50px;
+  background-color: #59D2B5;
+  border-radius: 18px;
+  border: 0px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 550;
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+
+.portfolio {
+  background-color: #F5F5F5;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio > h2, .invest > h2 {
+  width: 483px;
+  font-weight: 350;
+  font-size: 1.4rem;
+}
+
+.theories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px 10px 30px;
+}
+
+.theory > p {
+  font-weight: 350;
+  font-size: 0.7rem;
+}
+
+.icon_background {
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  border: 0px;
+  background-color: #59D2B5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_background > img {
+  width: 48px;
+  height: 48px;
+}
+
+/* button */
+.portfoliobtn {
+  background-color: #59D2B5;
+  width: 359px;
+  height: 39px;
+  border-radius: 18px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: white;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.invest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 30px 0;
+
+}
+
+.planbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sixmonthsplan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #59D2B5;
+  width: 140px;
+  height: 280px;
+  border-radius: 18px;
+  border: 0px;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sixmonthsplan > p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 8px;
+}
+
+.DCH {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 190px;
+  height: 280px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sixmonthsplan > h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+h4 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 20px 0 5px 0;
+}
+
+.DCHtextbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.DCHtextbox > h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 160px;
+
+}
+
+.DCHtextbox > p {
+  color: #828282;
+  font-size: 0.7rem;
+  font-weight: 300;
+  width: 170px;
+}
+
+.subscribebtn {
+  width: 188px;
+  height: 71px;
+  border-radius: 18px;
+  border: 0px;
+  background-color: #F5F5F5;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 550;
+  cursor: pointer;
+  margin: 15px 0 0 0;
+}
+
+.footer {
+  height: 372px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logobox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logobox > img {
+  width: 38px;
+  height: 38px;
+  margin: 10px 5px 10px 1px;
+}
+
+.github {
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+}
+
+.footer > img {
+  width: 190px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.notice > p {
+  font-size: 0.73rem;
+  font-weight: 300;
+}
+
+.noticetext {
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.unsubscribe {
+  width: 600px;
+}
+
+.notice > p > a {
+  color: white;
+}
+
+.menulink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.menulink > span > a {
+  color: white;
+  text-decoration: none;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 0.73rem;
+  font-weight: 300;
+}
+
+.information > p {
+  margin: 15px 0 0 0;
+}
+
+.legal_privacy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0
+}
+
+.legal_privacy > a {
+  color: white;
+  margin: 0;
+}
+
+
